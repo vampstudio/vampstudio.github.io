@@ -50,6 +50,11 @@ main {
     text-align: center;
 }
 
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
 
 .plugins {
     margin-top: 40px;
@@ -68,6 +73,12 @@ main {
     border-radius: 8px;
     width: 300px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plugin:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4);
 }
 
 .plugin h3 {
